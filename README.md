@@ -1,6 +1,6 @@
 <div align="center">
   
-<h1 align="center"></h1>
+<h1 align="center">Model View Controller</h1>
 <p>
 A simple Java project that implements the Model-View-Controller (MVC) architectural pattern.
 </p>
@@ -71,16 +71,16 @@ The application exemplifies this flow with the following screens:
 ![index](docs/index.png)
 
 - /form1.html (Submitted Data Screen)
-    Purpose: To display the data that the user just submitted through the form.
-    Functionality: When the user submits the form from index.html, the Controller processes the data, packages it into a Model, and forwards it to this View. The view is responsible for dynamically rendering that information.
+    - Purpose: To display the data that the user just submitted through the form.
+    - Functionality: When the user submits the form from index.html, the Controller processes the data, packages it into a Model, and forwards it to this View. The view is responsible for dynamically rendering that information.
 
 ![index](docs/f1.png)
 
 ![index](docs/f12.png)
 
 - /form2.html (Stored Data Screen)
-    Purpose: To display the complete list of all data that has been submitted and stored in the current session.
-    Functionality: A Controller gets the complete list of data from the Model and passes it to this View to display all the historical records.
+    - Purpose: To display the complete list of all data that has been submitted and stored in the current session.
+    - Functionality: A Controller gets the complete list of data from the Model and passes it to this View to display all the historical records.
 
 ![index](docs/f2.png)
 
